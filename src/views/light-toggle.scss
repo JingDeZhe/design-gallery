@@ -1,0 +1,14 @@
+.light-toggle {
+  &.off {
+    background-color: #151515;
+  }
+
+  .toggle {
+    width: 100px;
+    height: 60px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 60px #7547a3, -0px -0px 60px #9f61dd;
+    transform: rotate(-20deg);
+  }
+}
