@@ -1,4 +1,5 @@
 /* @refresh reload */
+import 'virtual:uno.css'
 import './index.scss'
 import { render } from 'solid-js/web'
 import { Route, Router } from '@solidjs/router'

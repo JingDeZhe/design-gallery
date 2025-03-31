@@ -1,0 +1,51 @@
+.gy-number-input {
+  --input-height: 50px;
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+  height: var(--input-height);
+  > .paper-tape-box {
+    position: relative;
+    .paper-tape {
+      position: absolute;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      border-radius: 0.2em;
+      &-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: var(--input-height);
+        width: var(--input-height);
+        background-color: #f1f1f1;
+      }
+    }
+  }
+  > .chinese-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(6 * var(--input-height));
+    font-family: serif;
+  }
+  > .controller {
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    .controller-btn {
+      flex: 1;
+      flex-shrink: 0;
+      overflow: hidden;
+      width: 2em;
+      background-color: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.2em;
+    }
+  }
+}
